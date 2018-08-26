@@ -24,7 +24,6 @@
         </license>
     </licenses>
 
-
     <repositories>
         <repository>
             <id>mvn-central</id>
@@ -38,6 +37,11 @@
             <url>https://repo1.maven.org/maven2/</url>
         </pluginRepository>
     </pluginRepositories>
+
+    <url>https://github.com/inkblot/movealong-oss</url>
+    <scm>
+        <url>https://github.com/inkblot/movealong-oss</url>
+    </scm>
 
     <dependencies>
         <dependency>
