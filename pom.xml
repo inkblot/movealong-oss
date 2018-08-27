@@ -38,10 +38,26 @@
         </pluginRepository>
     </pluginRepositories>
 
+    <name>movealong-oss</name>
+    <description>Parent POM for movealong.org OSS</description>
     <url>https://github.com/inkblot/movealong-oss</url>
     <scm>
         <url>https://github.com/inkblot/movealong-oss</url>
     </scm>
+
+    <profiles>
+        <profile>
+            <id>ossrh</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
     <dependencies>
         <dependency>
