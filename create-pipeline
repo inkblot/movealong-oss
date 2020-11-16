@@ -1,0 +1,6 @@
+#!/bin/bash
+set -eu
+
+_SELF="${0##*/}"
+_HERE="$(dirname $(realpath ${0}))"
+fly -t java sp -p movealong-oss -c ${_HERE}/../../concourse-java-ossrh-pipeline/ci/pipeline.yml -l ${_HERE}/concourse.yml
