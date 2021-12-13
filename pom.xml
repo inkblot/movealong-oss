@@ -60,13 +60,15 @@
         <gson.version>2.2.4</gson.version>
         <guice.version>4.1.0</guice.version>
         <hamcrest.version>2.2</hamcrest.version>
+        <jackson.version>2.11.0</jackson.version>
+        <jedis.version>3.6.3</jedis.version>
         <junit.version>5.7.0</junit.version>
         <lambda.version>5.3.0</lambda.version>
         <lambda-logging.version>1.0.3</lambda-logging.version>
         <logback.version>1.2.3</logback.version>
         <lombok.version>1.18.16</lombok.version>
-        <slf4j.version>1.7.25</slf4j.version>
         <mockito.version>3.6.28</mockito.version>
+        <slf4j.version>1.7.25</slf4j.version>
     </properties>
 
     <dependencies>
@@ -96,10 +98,8 @@
         <dependencies>
             <dependency>
                 <groupId>com.amazonaws</groupId>
-                <artifactId>aws-java-sdk-bom</artifactId>
+                <artifactId>aws-java-sdk-core</artifactId>
                 <version>${aws-java-sdk.version}</version>
-                <scope>import</scope>
-                <type>pom</type>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -165,9 +165,24 @@
                 <version>${guice.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-cbor</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
-                <version>3.6.3</version>
+                <version>${jedis.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jnape.palatable</groupId>
