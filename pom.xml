@@ -6,7 +6,7 @@
 
     <groupId>org.movealong</groupId>
     <artifactId>movealong-oss</artifactId>
-    <version>0.0.23</version>
+    <version>0.0.24</version>
     <packaging>pom</packaging>
 
     <developers>
@@ -69,6 +69,8 @@
         <lombok.version>1.18.16</lombok.version>
         <mockito.version>3.6.28</mockito.version>
         <slf4j.version>1.7.32</slf4j.version>
+        <shoki.version>1.0-alpha-2</shoki.version>
+        <winterbourne.version>1.0-alpha-1</winterbourne.version>
     </properties>
 
     <dependencies>
@@ -248,6 +250,16 @@
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.jnape.palatable</groupId>
+                <artifactId>shoki</artifactId>
+                <version>${shoki.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jnape.palatable</groupId>
+                <artifactId>winterbourne</artifactId>
+                <version>${winterbourne.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.hamcrest</groupId>
@@ -386,6 +398,18 @@
                         <id>attach-javadocs</id>
                         <goals>
                             <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
                         </goals>
                     </execution>
                 </executions>
