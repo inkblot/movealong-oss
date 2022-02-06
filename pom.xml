@@ -69,6 +69,8 @@
         <lombok.version>1.18.16</lombok.version>
         <mockito.version>3.6.28</mockito.version>
         <slf4j.version>1.7.32</slf4j.version>
+        <shoki.version>1.0-alpha-2</shoki.version>
+        <winterbourne.version>1.0-alpha-1</winterbourne.version>
     </properties>
 
     <dependencies>
@@ -247,6 +249,16 @@
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jnape.palatable</groupId>
+                <artifactId>shoki</artifactId>
+                <version>${shoki.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jnape.palatable</groupId>
+                <artifactId>winterbourne</artifactId>
+                <version>${winterbourne.version}</version>
             </dependency>
 
             <dependency>
