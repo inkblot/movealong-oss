@@ -6,7 +6,7 @@
 
     <groupId>org.movealong</groupId>
     <artifactId>movealong-oss</artifactId>
-    <version>0.0.27</version>
+    <version>0.0.28</version>
     <packaging>pom</packaging>
 
     <developers>
@@ -63,7 +63,7 @@
         <jackson.version>2.12.3</jackson.version>
         <jedis.version>3.6.3</jedis.version>
         <junit.version>5.7.0</junit.version>
-        <lambda.version>5.4.0</lambda.version>
+        <lambda.version>5.5.0</lambda.version>
         <lambda-logging.version>1.0.3</lambda-logging.version>
         <logback.version>1.2.3</logback.version>
         <lombok.version>1.18.16</lombok.version>
