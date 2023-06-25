@@ -52,7 +52,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-        <aws-java-sdk.version>1.12.248</aws-java-sdk.version>
+        <aws-java-sdk.version>1.12.261</aws-java-sdk.version>
         <aws-lambda-java-core.version>1.2.1</aws-lambda-java-core.version>
         <aws-lambda-java-events.version>3.11.0</aws-lambda-java-events.version>
         <commons-codec.version>1.15</commons-codec.version>
