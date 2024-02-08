@@ -335,6 +335,7 @@
                         <compilerArg>-Werror</compilerArg>
                         <compilerArg>-Xlint:all</compilerArg>
                         <compilerArg>-Xlint:-processing</compilerArg>
+                        <compilerArg>-Xlint:-serial</compilerArg>
                     </compilerArgs>
                 </configuration>
             </plugin>
