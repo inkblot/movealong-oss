@@ -6,7 +6,7 @@
 
     <groupId>org.movealong</groupId>
     <artifactId>movealong-oss</artifactId>
-    <version>0.0.35</version>
+    <version>0.0.36</version>
     <packaging>pom</packaging>
 
     <developers>
@@ -335,6 +335,7 @@
                         <compilerArg>-Werror</compilerArg>
                         <compilerArg>-Xlint:all</compilerArg>
                         <compilerArg>-Xlint:-processing</compilerArg>
+                        <compilerArg>-Xlint:-serial</compilerArg>
                     </compilerArgs>
                 </configuration>
             </plugin>
