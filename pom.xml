@@ -58,7 +58,7 @@
         <commons-codec.version>1.15</commons-codec.version>
         <commons-io.version>2.7</commons-io.version>
         <hamcrest.version>2.2</hamcrest.version>
-        <jackson.version>2.13.3</jackson.version>
+        <jackson.version>2.13.4.2</jackson.version>
         <jedis.version>3.6.3</jedis.version>
         <junit.version>5.7.0</junit.version>
         <lambda.version>5.5.0</lambda.version>
