@@ -6,7 +6,7 @@
 
     <groupId>org.movealong</groupId>
     <artifactId>movealong-oss</artifactId>
-    <version>0.0.37-SNAPSHOT</version>
+    <version>0.0.38-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <developers>
