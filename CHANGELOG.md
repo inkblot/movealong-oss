@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.0](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.0.39...movealong-oss-v0.1.0) (2026-03-07)
+
+
+### Features
+
+* auto-merge SNAPSHOT bump PRs from release-please ([#18](https://github.com/inkblot/movealong-oss/issues/18)) ([3b81fe5](https://github.com/inkblot/movealong-oss/commit/3b81fe5f067f722637f6655816c933ae191ed3a8))
+
+
+### Bug Fixes
+
+* correct GPG key import and passphrase handling ([#16](https://github.com/inkblot/movealong-oss/issues/16)) ([e182045](https://github.com/inkblot/movealong-oss/commit/e182045cfc5c891f30e8fb04197a5670dc376cee))
+* quote if expression to handle label with colon ([#19](https://github.com/inkblot/movealong-oss/issues/19)) ([b38d055](https://github.com/inkblot/movealong-oss/commit/b38d055b97ff8a1ce7f6b6255dccefa0a0c199e4))
+
 ## [0.0.39](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.0.38...movealong-oss-v0.0.39) (2026-03-07)
 
 
