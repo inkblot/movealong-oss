@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.1.0...movealong-oss-v0.1.1) (2026-03-07)
+
+
+### Bug Fixes
+
+* optimize SNAPSHOT PR workflows ([#21](https://github.com/inkblot/movealong-oss/issues/21)) ([45d28b7](https://github.com/inkblot/movealong-oss/commit/45d28b7eec3fdf077acdcdcaa2c6db81f27e5ea4))
+
 ## [0.1.0](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.0.39...movealong-oss-v0.1.0) (2026-03-07)
 
 
