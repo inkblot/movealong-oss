@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.39](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.0.38...movealong-oss-v0.0.39) (2026-03-07)
+
+
+### Continuous Integration
+
+* use PAT for release-please to trigger Deploy workflow ([4518690](https://github.com/inkblot/movealong-oss/commit/4518690f484258dac2fb32d1efcb112bb2ec02c8))
+
 ## [0.0.38](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.0.38-SNAPSHOT...movealong-oss-v0.0.38) (2026-03-07)
 
 
