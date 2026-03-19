@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.1.1...movealong-oss-v0.1.2) (2026-03-19)
+
+
+### Documentation
+
+* Remove TODO ([#26](https://github.com/inkblot/movealong-oss/issues/26)) ([1ece90f](https://github.com/inkblot/movealong-oss/commit/1ece90f5b8a9b96ea430472e511a21133e8f44db))
+
 ## [0.1.1](https://github.com/inkblot/movealong-oss/compare/movealong-oss-v0.1.0...movealong-oss-v0.1.1) (2026-03-07)
 
 
